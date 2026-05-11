@@ -330,15 +330,15 @@
     }
 
 /* ── DRINKS ── */
-    .drinks-section {
-      background: var(--sky) !important;
-      color: var(--black) !important;
-    }
-    .drinks-section .section-title { color: var(--black); }
-    .drinks-section .menu-card { border-color: var(--black); box-shadow: 6px 6px 0 var(--black); }
-    .drinks-section .menu-card .img-wrap { background: #a8e8f5 !important; }
-    .drinks-section .menu-card .card-body { background: var(--white) !important; color: var(--black) !important; }
-    .drinks-section .menu-card .card-price { color: var(--black) !important; -webkit-text-stroke: 0; }
+    .menu-section.drinks-section { background: var(--sky) !important; }
+    .menu-section.drinks-section .section-title { color: var(--black) !important; }
+    .menu-section.drinks-section .section-title span { color: var(--lime) !important; -webkit-text-stroke: 2px var(--black) !important; }
+    .menu-section.drinks-section .menu-card { border-color: var(--black) !important; box-shadow: 6px 6px 0 var(--black) !important; }
+    .menu-section.drinks-section .menu-card .img-wrap { background: #a8e8f5 !important; }
+    .menu-section.drinks-section .menu-card .card-body { background: var(--white) !important; }
+    .menu-section.drinks-section .menu-card .card-name, 
+    .menu-section.drinks-section .menu-card .card-desc, 
+    .menu-section.drinks-section .menu-card .card-price { color: var(--black) !important; -webkit-text-stroke: 0 !important; }
 
     /* ── COMBOS ── */
     .combo-section { background: var(--lime); color: var(--black); }
